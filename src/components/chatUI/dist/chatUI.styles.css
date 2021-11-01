@@ -92,6 +92,11 @@ body {
   display: flex;
   align-items: center;
 }
+@media screen and (max-width: 400px) {
+  .main-container .lower-container .contents .faq span {
+    font-size: medium;
+  }
+}
 .main-container .lower-container .contents .faq .circle {
   height: 20px;
   width: 20px;
@@ -144,4 +149,9 @@ body {
   justify-content: center;
   align-items: center;
   box-shadow: 0px 3px #c0c0c057;
+}
+@media screen and (max-width: 400px) {
+  .main-container .lower-container .contents .start-convo .convo {
+    font-size: x-small;
+  }
 }

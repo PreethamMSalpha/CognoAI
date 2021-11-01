@@ -74,6 +74,7 @@ function ChatUI() {
               data-aos-delay="3000"
             >
               <img
+                id="faq_questmark"
                 src={questionmark}
                 alt="questionmark"
                 style={{ width: "15px" }}
@@ -118,7 +119,10 @@ function ChatUI() {
               />
             </div>
             <div style={{ display: "flex" }}>
-              <span style={{ fontWeight: 500, fontSize: "smaller" }}>
+              <span
+                className="convo"
+                // style={{ fontWeight: 500, fontSize: "smaller" }}
+              >
                 Start a New Conversation
               </span>
             </div>

@@ -104,7 +104,9 @@ body {
         align-items: center;
 
         @media screen and (max-width: 400px) {
-          // margin: auto;
+          span {
+            font-size: medium;
+          }
         }
 
         .circle {
@@ -168,6 +170,12 @@ body {
         justify-content: center;
         align-items: center;
         box-shadow: 0px 3px #c0c0c057;
+
+        @media screen and (max-width: 400px) {
+          .convo {
+            font-size: x-small;
+          }
+        }
       }
     }
   }

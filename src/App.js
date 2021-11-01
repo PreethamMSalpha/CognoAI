@@ -4,8 +4,6 @@ import ChatUI from "./components/chatUI/chatUI.component";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import Demo from "./components/chatPopup/chatPopup.component";
-import SimpleForm from "./components/chatBot/SimpleForm";
 
 function App() {
   useEffect(() => {
@@ -13,7 +11,7 @@ function App() {
   }, []);
   return (
     <div>
-      <SimpleForm />
+      <ChatUI />
     </div>
   );
 }
